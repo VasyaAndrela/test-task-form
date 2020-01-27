@@ -1,0 +1,118 @@
+.main {
+  width: 75%;
+  padding: 30px 0 0 40px;
+  display: flex;
+  flex-direction: column;
+
+  &__label {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: rgb(137, 145, 151)
+  }
+
+  &__content {
+    margin-top: 40px;
+    width: max-content;
+
+    &__summary {
+      display: block;
+      position: absolute;
+      margin-top: 12px;
+      left: 810px;
+      padding: 7px 10px;
+      border-radius: 5px;
+      font-size: 0.7rem;
+      color: #f9c439;
+      background-color: #fef9f1;
+      font-weight: 600;
+    }
+
+    &__summary-full {
+      display: block;
+      position: absolute;
+      margin-top: 12px;
+      left: 810px;
+      padding: 7px 10px;
+      border-radius: 5px;
+      font-size: 0.7rem;
+      color: green;
+      background-color: rgba(48, 199, 149, 0.05);
+      font-weight: 600;
+    }
+
+    &-label {
+      font-size: 0.9rem;
+      font-weight: 600;
+    }
+
+    &__characters-table {
+      margin-top: 20px;
+      position: relative;
+    }
+
+    &__switch {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin-top: 40px;
+      line-height: 45px;
+
+      i {
+        margin-left: 10px;
+        font-size: 30px;
+        color: rgb(199, 199, 199);
+      }
+    }
+
+    &__button {
+      margin: 20px 0 40px 0;
+      padding: 8px 35px;
+      font-size: 13px;
+      border-radius: 5px;
+      color: #fff;
+      background: rgb(36, 86, 249);
+      &:disabled {
+        background: rgb(199, 199, 199);
+      }
+    }
+  }
+
+  .button {
+    font-size: 21px;
+    border: none;
+    padding: 0;
+    border-radius: 5px;
+    outline: none;
+  }
+
+  .button:hover {
+    cursor: pointer;
+  }
+
+  .removeButton {
+    color: red;
+    margin-right: 5px;
+  }
+
+  .removeButton:hover {
+    background-color: rgba(255, 0, 0, 0.05);
+  }
+
+  .checkButton {
+    color: green;
+  }
+
+  .checkButton:hover {
+    background-color: rgba(0, 128, 0, 0.05);
+  }
+
+  .groupInputsIconButton {
+    display: flex;
+    align-items: flex-end
+  }
+}

@@ -1,0 +1,41 @@
+li {
+  list-style-type: none
+}
+
+.side {
+  border-right: 2px solid rgb(234, 234, 234);
+  width: 20%;
+  height: 90vh;
+
+  &__block {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    padding-left: 20px;
+    color: rgb(142, 148, 155);
+
+    p {
+      margin-left: 7px;
+    }
+
+    &__checked {
+      i{
+        color: rgb(110, 210, 164)
+      }
+    }
+
+    &__active {
+      i {
+        margin: 0 5px;
+        font-size: 14px;
+        color: rgb(29, 142, 251)
+      }
+      color: rgb(66, 66, 66);
+      background: rgb(246, 246, 246);
+    }
+
+    &__unactive {
+      color: rgb(230, 230, 230)
+    }
+  }
+}

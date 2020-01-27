@@ -1,0 +1,90 @@
+.form {
+  display: flex;
+  margin-top: 20px;
+  position: relative;
+
+  &__block {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-right: 15px;
+
+    i {
+      position: absolute;
+      font-size: 15px;
+      top: 19px;
+      right: 125px;
+      color: #767676;
+    }
+    
+    &__name {
+      width: auto;
+      font-size: 0.7rem;
+      color: #272727;
+    }
+
+    &__name-input {
+      width: 160px;
+      height: 25px;
+      margin-top: 4px;
+      padding-left: 5px;
+      border-radius: 5px;
+      border-style: hidden;
+      background-color: rgb(246, 246, 246);
+    }
+
+    &__birth {
+      width: auto;
+      font-size: 0.7rem;
+      color: #272727;
+    }
+
+    &__birth-input {
+      width: 120px;
+      height: 25px;
+      margin-top: 4px;
+      padding-left: 30px;
+      border-radius: 5px;
+      border-style: hidden;
+      background-color: rgb(246, 246, 246);
+    }
+
+    &__ssn {
+      width: 50px;
+      height: 25px;
+      border: none;
+    }
+
+    &__optional {
+      width: 70px;
+      height: 25px;
+      padding-left: 5px;
+      border-radius: 5px;
+      border-style: hidden;
+      background-color: rgb(246, 246, 246);
+    }
+
+    &__relationship {
+      width: auto;
+      font-size: 0.7rem;
+      color: #272727;
+    }
+
+    &__relationship-select {
+      width: 70px;
+      height: 25px;
+      border: none;
+      margin-top: 4px;
+    }
+
+    &__percentage {
+      width: 30px;
+      height: 25px;
+      padding-left: 10px;
+      border-radius: 5px;
+      border-style: hidden;
+      background-color: rgb(246, 246, 246);
+    }
+  }
+}
